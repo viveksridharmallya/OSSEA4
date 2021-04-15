@@ -45,8 +45,8 @@ public class  Bear {
             System.out.println("Last digi multiple "+ lastDigitMultiple);
             System.out.println("Last digi multiple "+ lastDigitMultiple);
             System.out.println("input : " + number + "\t Output : "+ (number - lastDigitMultiple));
-            // isGamePossible =  isGamePossible || isGamePossible(number - lastDigitMultiple);
-            return false;
+            isGamePossible =  isGamePossible || isGamePossible(number - lastDigitMultiple);
+            // return false;
         } 
         if (isDivisibleByFive(number)) {
             System.out.println("input : " + number + "\t Output : "+ (number - 42));
