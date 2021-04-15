@@ -26,7 +26,8 @@ public class  Bear {
         return isDivisible;
     }
 
-    // The number could satisfy multiple conditions providing multiple outcomes for same number. So using || operator and parallel if conditions to consider all scenarios.
+    // The number could satisfy multiple conditions providing multiple outcomes for same number. 
+    // So using || operator and parallel if conditions to consider all scenarios.
     private static boolean isGamePossible(int number) {
         boolean isGamePossible = false;
         if(number < 84) {
