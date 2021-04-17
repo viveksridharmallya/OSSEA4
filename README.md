@@ -7,6 +7,8 @@ A sample java repo to demonstrate different implementations and problem solution
 - Finds largest element of an array with and without using recursion.
 
 ## String
+- Reverses a string with and without using the recursion.
+
 ## Pattern
 
 ## Recursion
