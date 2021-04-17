@@ -18,10 +18,13 @@ public class ReverseString
 		int choice=sc.nextInt();
 		
 		if(choice==1)
+		{
 			System.out.println("Reverse string without recursion "+strrev(s));
-		else
-			if(choice==2)
-				System.out.println("Reverse String with recursion is "+strrevrev(s));
+		}
+		else if(choice==2)
+		{
+		        System.out.println("Reverse String with recursion is "+strrevrev(s));
+		}
 	}
 	
 	public static String strrev(String x)
@@ -30,7 +33,9 @@ public class ReverseString
 		int len=x.length();
 		int count=0;
 		for(int i=len-1;i>=0;i--)
+		{
 			r[count++]=x.charAt(i);
+		}
 		String rev=new String(r);
 		return rev;
 			
@@ -39,7 +44,9 @@ public class ReverseString
 	{
 		//System.out.println("length= "+x.length());
 		if(x.length()==1)
+		{
 			return(x);
+		}
 		else
 		{
 			//System.out.println("last character= "+x.substring(x.length()-1));
