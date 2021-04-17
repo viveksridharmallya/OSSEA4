@@ -16,10 +16,10 @@ public class LargestElement {
 		
 		int choice=sc.nextInt();
 		
-		if(choice==1)
+		if(choice=1)
 			System.out.println(n+" fibonacci number is "+fib(n));
 		else
-			if(choice==2)
+			if(choice=2)
 				System.out.println(n+" fibonacci number is "+fibrec(n));
 	}
 	
